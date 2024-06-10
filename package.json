@@ -33,7 +33,7 @@
     "@vue/test-utils": "^2.0.0-0",
     "@vue/vue3-jest": "^27.0.0-alpha.1",
     "babel-jest": "^27.0.6",
-    "cypress": "^9.7.0",
+    "cypress": "^13.11.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -44,6 +44,9 @@
     "sass-loader": "^12.0.0",
     "ts-jest": "^27.0.4",
     "typescript": "~4.5.5"
+  },
+  "overrides": {
+    "postcss": "8.4.38"
   },
   "eslintConfig": {
     "root": true,
