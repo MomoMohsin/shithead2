@@ -9,7 +9,6 @@ router/ for Vue Router if having multiple routes/pages.
 store/ for Vuex if state management is needed across components.
 assets/ for static assets like images and styles.
 Server (Backend):
-
 Node.js project with:
 server.js for initializing the server.
 gameLogic.js for managing the game rules and player actions.
